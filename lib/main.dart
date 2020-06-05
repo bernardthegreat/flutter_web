@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web/patients/dashboard.dart';
-import 'package:flutter_web/patients/home.dart';
+import 'package:flutter_web/home.dart';
 
 import 'doctors/dashboard.dart';
+import 'laboratory/dashboard.dart';
+import 'covid/dashboard.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,6 +41,8 @@ class MyApp extends StatelessWidget {
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/patient': (context) => Patient(),
         '/doctor': (context) => Doctor(),
+        '/results': (context) => Laboratory(),
+        '/covid': (context) => Covid(),
       },
     );
   }
