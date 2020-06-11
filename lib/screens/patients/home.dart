@@ -89,7 +89,7 @@ class Home extends StatelessWidget {
                                     child: const Text('Appointment'),
                                     color: Colors.grey[900],
                                     onPressed: () {
-                                      Navigator.pushNamed(context, '/doctor');
+                                      Navigator.pushNamed(context, '/');
                                     },
                                   ),
                                 ],
@@ -176,7 +176,7 @@ class Home extends StatelessWidget {
                                       child: const Text('Results'),
                                       color: Colors.grey[900],
                                       onPressed: () {
-                                        Navigator.pushNamed(context, '/test');
+                                        Navigator.pushNamed(context, '/covid');
                                       },
                                     ),
                                   ],

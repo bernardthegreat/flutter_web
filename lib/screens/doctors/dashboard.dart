@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web/components/dashboard.dart';
 
 class Doctor extends StatelessWidget {
   @override
@@ -7,14 +8,7 @@ class Doctor extends StatelessWidget {
       appBar: AppBar(
         title: Text('Doctor Screen'),
       ),
-      body: Center(
-        child: RaisedButton(
-          child: Text('Launch screen'),
-          onPressed: () {
-            // Navigate to the second screen when tapped.
-          },
-        ),
-      ),
+      body: Dashboard(),
     );
   }
 }
